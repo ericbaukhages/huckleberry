@@ -12,6 +12,7 @@ body {
 /* Add styles here! */
 
 :root {
+  --white: #fff;
   --primary: hsl(160deg, 100%, 30%);
   --secondary-lighter: hsl(45deg, 100%, 50%);
   --secondary-darker: hsl(45deg, 100%, 40%);
@@ -21,6 +22,8 @@ body {
   --grey-medium: hsl(0deg, 0%, 40%);
   --grey-light: hsl(0deg, 0%, 60%);
   --grey-white: hsl(0deg, 0%, 100%);
+
+  --border-width: 6px;
 }
 
 header {
