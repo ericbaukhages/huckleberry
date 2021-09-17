@@ -31,6 +31,10 @@ h2 {
   margin: 0;
 }
 
+body {
+  background-color: var(--grey-light);
+}
+
 header,
 main {
   width: 100%;
@@ -39,6 +43,7 @@ main {
 header {
   padding-top: 128px;
   padding-bottom: 32px;
+  background-color: var(--white);
 }
 
 .max-width-wrapper {
@@ -52,4 +57,15 @@ header {
 
 .intro-chunk strong {
   color: var(--primary);
+}
+
+main {
+  border-top: var(--border-width) solid var(--grey-dark);
+}
+
+.card {
+  margin-top: 32px;
+  background-color: var(--white);
+  padding: 16px;
+  border-bottom: var(--border-width) solid var(--grey-dark);
 }
