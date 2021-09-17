@@ -26,8 +26,17 @@ body {
   --border-width: 6px;
 }
 
-header {
+h1,
+h2 {
+  margin: 0;
+}
+
+header,
+main {
   width: 100%;
+}
+
+header {
   padding-top: 128px;
   padding-bottom: 32px;
 }
