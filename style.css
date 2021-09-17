@@ -69,3 +69,11 @@ main {
   padding: 16px;
   border-bottom: var(--border-width) solid var(--grey-dark);
 }
+
+.indented-heading {
+  background-color: var(--secondary-lighter);
+  border-bottom: var(--border-width) solid var(--secondary-darker);
+  padding: 16px 32px;
+  margin-left: -32px;
+  display: inline-block;
+}
