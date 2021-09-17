@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 html,
@@ -10,3 +10,15 @@ body {
 }
 
 /* Add styles here! */
+
+:root {
+  --primary: hsl(160deg, 100%, 30%);
+  --secondary-lighter: hsl(45deg, 100%, 50%);
+  --secondary-darker: hsl(45deg, 100%, 40%);
+  --grey-black: hsl(0deg, 0%, 0%);
+  --grey-very-dark: hsl(0deg, 0%, 10%);
+  --grey-dark: hsl(0deg, 0%, 30%);
+  --grey-medium: hsl(0deg, 0%, 40%);
+  --grey-light: hsl(0deg, 0%, 60%);
+  --grey-white: hsl(0deg, 0%, 100%);
+}
