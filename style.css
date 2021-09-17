@@ -57,7 +57,7 @@ main {
 }
 
 header {
-  padding-top: 128px;
+  padding-top: 64px;
   padding-bottom: 32px;
   background-color: var(--white);
   font-size: var(--font-md);
@@ -69,7 +69,6 @@ header {
 }
 
 .intro-chunk {
-  width: 50%;
   padding: 16px;
 }
 
@@ -94,4 +93,14 @@ main {
   padding: 16px 32px;
   margin-left: -32px;
   display: inline-block;
+}
+
+@media (min-width: 768px) {
+  header {
+    padding-top: 128px;
+  }
+
+  .intro-chunk {
+    width: 50%;
+  }
 }
