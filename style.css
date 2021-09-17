@@ -24,6 +24,11 @@ body {
   --grey-white: hsl(0deg, 0%, 100%);
 
   --border-width: 6px;
+
+  --font-sm: 1rem;
+  --font-md: 1.25rem;
+  --font-lg: 1.5rem;
+  --font-xl: 2rem;
 }
 
 h1,
