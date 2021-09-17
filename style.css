@@ -22,3 +22,22 @@ body {
   --grey-light: hsl(0deg, 0%, 60%);
   --grey-white: hsl(0deg, 0%, 100%);
 }
+
+header {
+  width: 100%;
+  padding-top: 128px;
+  padding-bottom: 32px;
+}
+
+.max-width-wrapper {
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.intro-chunk {
+  width: 50%;
+}
+
+.intro-chunk strong {
+  color: var(--primary);
+}
